@@ -21,7 +21,7 @@ struct ContentView: View {
                     .clipShape(Circle())
                     .overlay(
                         Circle()
-                            .stroke(Color.white, lineWidth: 5)
+                            .stroke(Color("WhiteBlack"), lineWidth: 5)
                     )
                 
                 Text("Ryan Henzell-Hill")
@@ -37,7 +37,7 @@ struct ContentView: View {
                 
                 InfoView(text: "07437572172", icon: "phone.fill")
                 
-                InfoView(text: "ryan.henzell-hill@outlook.com", icon: "phone.fill")
+                InfoView(text: "ryan.henzell-hill@outlook.com", icon: "envelope.fill")
             }
         }
     }
