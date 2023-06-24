@@ -11,6 +11,7 @@
 		5B61FF812A4752BA00CFC369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B61FF802A4752BA00CFC369 /* ContentView.swift */; };
 		5B61FF832A4752BC00CFC369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B61FF822A4752BC00CFC369 /* Assets.xcassets */; };
 		5B61FF862A4752BC00CFC369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B61FF852A4752BC00CFC369 /* Preview Assets.xcassets */; };
+		5B61FF8E2A47564700CFC369 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B61FF8D2A47564700CFC369 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		5B61FF802A4752BA00CFC369 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B61FF822A4752BC00CFC369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B61FF852A4752BC00CFC369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B61FF8D2A47564700CFC369 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5B61FF8F2A4757C000CFC369 /* BusinessCard-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BusinessCard-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		5B61FF7D2A4752BA00CFC369 /* BusinessCard SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5B61FF8F2A4757C000CFC369 /* BusinessCard-SwiftUI-Info.plist */,
+				5B61FF8C2A47560E00CFC369 /* fonts */,
 				5B61FF7E2A4752BA00CFC369 /* BusinessCard_SwiftUIApp.swift */,
 				5B61FF802A4752BA00CFC369 /* ContentView.swift */,
 				5B61FF822A4752BC00CFC369 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				5B61FF852A4752BC00CFC369 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B61FF8C2A47560E00CFC369 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B61FF8D2A47564700CFC369 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B61FF8E2A47564700CFC369 /* Pacifico-Regular.ttf in Resources */,
 				5B61FF862A4752BC00CFC369 /* Preview Assets.xcassets in Resources */,
 				5B61FF832A4752BC00CFC369 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BusinessCard SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BusinessCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BusinessCard SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BusinessCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
