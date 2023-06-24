@@ -35,13 +35,9 @@ struct ContentView: View {
                 
                 Divider()
                 
-                RoundedRectangle(cornerRadius: 50)
-                    .padding(.horizontal)
-                    .frame(width: nil, height: 50.0)
-                    .foregroundColor(.white)
-                    .overlay(
-                        Text("07437572172")
-                    )
+                InfoView(text: "07437572172", icon: "phone.fill")
+                
+                InfoView(text: "ryan.henzell-hill@outlook.com", icon: "phone.fill")
             }
         }
     }
